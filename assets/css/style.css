@@ -528,7 +528,6 @@ section {
 .breadcrumbs {
   margin-top: 73px;
   text-align: center;
-  background: #037367;
   padding: 30px 0;
   color: #fff;
 }
@@ -542,6 +541,8 @@ section {
 .breadcrumbs h2 {
   font-size: 32px;
   font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  color: #00281f;
 }
 
 .breadcrumbs p {
@@ -654,7 +655,7 @@ section {
 .more-btn {
   display: inline-block;
   background: rgba(255, 255, 255, 0.2);
-  border:1px solid #5fcf80;
+  border: 1px solid #5fcf80;
   padding: 6px 30px 8px 30px;
   color: #5fcf80;
   border-radius: 50px;
@@ -1592,4 +1593,12 @@ section {
   background: #3ac162;
   color: #fff;
   text-decoration: none;
+}
+
+.text-title {
+  font-size: 50px !important;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #37423b;
 }
