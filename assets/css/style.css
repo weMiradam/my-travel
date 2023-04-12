@@ -138,6 +138,10 @@ h6 {
 /**
 * Get Startet Button 
 */
+.btn-block {
+  width: 100%;
+}
+
 .get-started-btn {
   margin-left: 22px;
   background: #5fcf80;
@@ -394,7 +398,6 @@ h6 {
 #hero {
   width: 100%;
   height: 80vh;
-  background: url("../img/hero-bg.jpg") top center;
   background-size: cover;
   position: relative;
 }
