@@ -1,0 +1,25 @@
+span.relative.z-0.inline-flex.shadow-sm.rounded-md {
+    display: none !important;
+}
+.hidden.sm\:flex-1.sm\:flex.sm\:items-center.sm\:justify-between {
+    margin-top: 20px !important;
+}
+.table td, .table th {
+    font-size: 12px !important;
+}
+.form-control, .form-group label {
+    font-size: 12px !important;
+}
+.ck-editor__editable[role="textbox"] {
+    /* editing area */
+    min-height: 300px;
+    font-size: 12px;
+}
+.ck-content .image {
+    /* block images */
+    max-width: 80%;
+    margin: 20px auto;
+}
+table .btn {
+    font-size: 12px !important;
+}
