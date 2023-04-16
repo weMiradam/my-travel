@@ -22,6 +22,7 @@
 
   <!-- Vendor JS Files -->
   @include('frontend.layout.js')
+  @stack('bottom')
 </body>
 
 </html>
