@@ -35,7 +35,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #5fcf80;
+  background: #7bd4cc;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -213,7 +213,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover > a {
-  color: #5fcf80;
+  color: #037367;
 }
 
 .navbar .dropdown ul {
@@ -918,7 +918,7 @@ section {
 
 .testimonials .testimonial-item .quote-icon-left,
 .testimonials .testimonial-item .quote-icon-right {
-  color: #c1ecce;
+  color: #7bd4cc;
   font-size: 26px;
 }
 
@@ -950,11 +950,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #5fcf80;
+  border: 1px solid #7bd4cc;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #5fcf80;
+  background-color: #7bd4cc;
 }
 
 @media (max-width: 767px) {
@@ -1577,7 +1577,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #5fcf80;
+  background: #7bd4cc;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1596,9 +1596,15 @@ section {
 }
 
 .text-title {
-  font-size: 50px !important;
+  font-size: 65px !important;
   font-weight: 700;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #37423b;
+  color: #037367;
+}
+
+.text-intern {
+  font-size: 20px !important;
+  font-weight: 20;
+  font-family: "Raleway", sans-serif;
 }
