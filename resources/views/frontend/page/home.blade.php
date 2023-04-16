@@ -210,7 +210,7 @@
                                 <h3><a href="course-details.html">{{$row->name}}</a></h3>
                                 <p> {{Str::limit(strip_tags($row->description),100)}}</p>
                                 <div class="trainer d-flex justify-content-between align-items-center">
-                                    <button class="btn btn-outline-success btn-block">Detail</button>
+                                    <a href="{{url('travel/'.$row->slug)}}" class="btn btn-outline-success btn-block">Detail</a>
                                 </div>
                             </div>
                         </div>
