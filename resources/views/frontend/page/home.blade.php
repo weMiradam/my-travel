@@ -63,8 +63,7 @@
                         <div class="content">
                             <h3>Why Choose Storeies</h3> 
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
-                                Asperiores dolores sed et. Tenetur quia eos. Autem tempore quibusdam vel necessitatibus optio ad corporis.
+                            Mengikuti guided tour, meskipun berjalan kaki, kamu tidak perlu risau akan merencanakan rute destinasimu, dan juga menghilangkan resiko tersesat. Pada akhirnya, berpergian secara berkelompok berarti memberi keamanan serta kenyamanan dalam berwisata.
                             </p>
                             <div class="text-center">
                                 <a href="about.html" class="more-btn">Learn More <i class="bx bx-chevron-right"></i></a>
@@ -91,8 +90,8 @@
                                 <div class="col-xl-4 d-flex align-items-stretch">
                                     <div class="icon-box mt-4 mt-xl-0">
                                         <i class="bx bx-images"></i>
-                                        <h4>Labore consequatur</h4>
-                                        <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+                                        <h4>Menyajikan Sejarah yang Kaya</h4>
+                                        <p>Walking tour tak hanya merupakan cara terbaik untuk membenamkan diri dalam suasana kota.</p>
                                     </div>
                                 </div>
                             </div>
@@ -104,7 +103,7 @@
         </section><!-- End Why Us Section -->
 
         <!-- ======= Features Section ======= -->
-        <section id="features" class="features">
+        <!-- <section id="features" class="features">
             <div class="container" data-aos="fade-up">
 
                 <div class="row" data-aos="zoom-in" data-aos-delay="100">
@@ -183,7 +182,9 @@
                 </div>
 
             </div>
-        </section><!-- End Features Section -->
+        </section> -->
+        
+        <!-- End Features Section -->
 
         <!-- ======= Popular Courses Section ======= -->
         <section id="popular-courses" class="courses">

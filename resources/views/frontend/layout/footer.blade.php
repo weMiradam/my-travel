@@ -13,18 +13,18 @@
                     </p>
                 </div>
 
-                <div class="col-lg-2 col-md-6 footer-links">
+                <div class="col-lg-3 col-md-6 footer-links">
                     <h4>Useful Links</h4>
                     <ul>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="/my-travel/public/">Home</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="/my-travel/public/about">About us</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="/my-travel/public/travel">Tour list</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="/my-travel/public/trainer">Our Storyteller</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="/my-travel/public/contact">Contact</a></li>
                     </ul>
                 </div>
 
-                <div class="col-lg-3 col-md-6 footer-links"></div>
+                <div class="col-lg-2 col-md-6 footer-links"></div>
 
                 <div class="col-lg-4 col-md-6 footer-newsletter">
                     <h4>Wanna have private walk with us?</h4>
