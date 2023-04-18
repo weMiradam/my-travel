@@ -191,8 +191,8 @@
             <div class="container" data-aos="fade-up">
 
                 <div class="section-title">
-                    <h2>Travel</h2>
-                    <p>Popular Guide</p>
+                    <h2>TOUR</h2>
+                    <p>Popular Tour</p>
                 </div>
 
                 <div class="row" data-aos="zoom-in" data-aos-delay="100">
@@ -229,8 +229,8 @@
         <section id="trainers" class="trainers">
             <div class="container" data-aos="fade-up">
                 <div class="section-title">
-                    <h2>Travel</h2>
-                    <p>Popular Trainers Guide</p>
+                    <h2>Storyteller</h2>
+                    <p>Popular Storyteller</p>
                 </div>
                 <div class="row" data-aos="zoom-in" data-aos-delay="100">
                     @foreach($trainer as $row)
