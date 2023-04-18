@@ -110,7 +110,7 @@
                             </div>
                             <div class="col-md-6 form-group">
                                 <div class="form-floating">
-                                    <input type="number" class="form-control" value="1" name="ticket_qty" id="floatingQty" placeholder="Quantity Order" required="">
+                                    <input type="number" class="form-control" value="1" min="1" name="ticket_qty" id="floatingQty" placeholder="Quantity Order" required="">
                                     <label for="floatingQty">Quantity Order</label>
                                 </div>
                             </div>

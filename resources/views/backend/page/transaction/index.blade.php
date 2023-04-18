@@ -58,6 +58,7 @@
                         <th>Date Booking</th>
                         <th>Sesi</th>
                         <th>Order Create At</th>
+                        <th style="width: 150px !important;" class="text-right">Action</th>
                     </tr>
                     </tfoot>
                 </table>
