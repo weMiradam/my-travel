@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\Backend\AdminController;
 use App\Http\Controllers\Backend\AdminTrainerController;
+use App\Http\Controllers\Backend\AdminTransactionController;
 use App\Http\Controllers\Backend\AdminTravelController;
 use App\Http\Controllers\Frontend\AboutController;
 use App\Http\Controllers\Frontend\ContactController;
@@ -25,6 +26,7 @@ Route::get('', [HomeController::class, 'getIndex'])->name('homeIndex');
 Route::get('about', [AboutController::class, 'getIndex'])->name('about');
 Route::get('travel', [TravelController::class, 'getIndex'])->name('travel');
 Route::get('travel/{id}', [TravelController::class, 'getDetail'])->name('travelDetail');
+Route::post('create-order', [TravelController::class, 'postOrder'])->name('travelOrder');
 Route::get('trainer', [TrainerController::class, 'getIndex'])->name('trainer');
 Route::get('contact', [ContactController::class, 'getIndex'])->name('contact');
 
@@ -36,6 +38,11 @@ Route::prefix('admin')->group(function () {
 
 Route::group(['prefix' => 'admin', 'middleware' => ['admin.login']], function(){
     Route::get('',[AdminController::class,"getIndex"])->name("admin");
+
+    Route::prefix('transaction')->group(function () {
+        Route::get('/', [AdminTransactionController::class, "getIndex"])->name("adminTransaction");
+        Route::get('/delete/{id}', [AdminTransactionController::class, "getDelete"])->name("adminTransactionDelete");
+    });
 
     // controller travel
     Route::prefix('travel')->group(function () {

@@ -1,8 +1,30 @@
 @extends('frontend.layout.body')
 @section('content')
+    @if(session()->has('msg_type') == 'success')
+        <!-- Modal -->
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel">Transaksi berhasil</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        {{session()->get('msg')}}
+                    </div>
+                </div>
+            </div>
+        </div>
+        @push('bottom')
+            <script type="text/javascript">
+                window.onload = () => {
+                    $('#staticBackdrop').modal('show');
+                }
+            </script>
+        @endpush
+    @endif
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
     <main id="main">
-
         <!-- ======= Breadcrumbs ======= -->
         <div class="breadcrumbs" data-aos="fade-in">
             <div class="container">
@@ -62,40 +84,58 @@
                     <h5 class="modal-title" id="modalBookLabel"><b>Create Order</b></h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <form action="" method="POST">
+                <form action="{{url('create-order')}}" method="POST">
                     <div class="modal-body">
                         <p><small>Masukan data diri anda dengan benar agar dapat kita hubungi.</small></p>
                         <input type="hidden" name="travel_id" value="{{$travel->id}}">
                         {{csrf_field()}}
                         <div class="row">
                             <div class="col-md-6 form-group">
-                                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required="">
-                            </div>
-                            <div class="col-md-6 form-group mt-3 mt-md-0">
-                                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required="">
-                            </div>
-                            <div class="col-md-6 form-group mt-3 mt-md-0">
-                                <input type="number" class="form-control" name="no_phone" id="no_phone" placeholder="Your Phone Number (WhatsApp)" required="">
-                            </div>
-                            <div class="col-md-6 form-group mt-3 mt-md-0">
-                                <input type="number" class="form-control" value="1" name="ticket_qty" id="ticket_qty" placeholder="Quantity Order" required="">
+                                <div class="form-floating">
+                                    <input type="text" name="name" class="form-control" id="floatingName" placeholder="Your Name" required="">
+                                    <label for="floatingName">Name</label>
+                                </div>
                             </div>
                             <div class="col-md-6 form-group">
-                                <input type="text" name="date_booking" class="form-control datepicker" placeholder="Date Order" required="">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control" name="email" id="floatingEmail" placeholder="Your Email" required="">
+                                    <label for="floatingEmail">Email address</label>
+                                </div>
                             </div>
-                            <div class="col-md-6 form-group mt-3 mt-md-0">
-                                <select name="" class="form-control">
-                                    <option value="">Pilih Sesi</option>
-                                    <option value="08.00 - 10.00">08.00 - 10.00</option>
-                                    <option value="10.00 - 12.00">10.00 - 12.00</option>
-                                    <option value="13.00 - 15.00">13.00 - 15.00</option>
-                                    <option value="15.00 - 17.00">15.00 - 17.00</option>
-                                </select>
+                            <div class="col-md-6 form-group">
+                                <div class="form-floating">
+                                    <input type="number" class="form-control" name="no_phone" id="floatingNumber" placeholder="Your Phone Number (WhatsApp)" required="">
+                                    <label for="floatingNumber">Your Phone Number (WhatsApp)</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6 form-group">
+                                <div class="form-floating">
+                                    <input type="number" class="form-control" value="1" name="ticket_qty" id="floatingQty" placeholder="Quantity Order" required="">
+                                    <label for="floatingQty">Quantity Order</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6 form-group">
+                                <div class="form-floating">
+                                    <input type="text" name="date_booking" class="form-control datepicker" id="floatingDate" placeholder="Date Order" required="">
+                                    <label for="floatingDate">Date Order</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6 form-group">
+                                <div class="form-floating">
+                                    <select name="session" class="form-control" id="floatingSelect" aria-label="Floating Sesi" required>
+                                        <option value="">Pilih Sesi</option>
+                                        <option value="08.00 - 10.00">08.00 - 10.00</option>
+                                        <option value="10.00 - 12.00">10.00 - 12.00</option>
+                                        <option value="13.00 - 15.00">13.00 - 15.00</option>
+                                        <option value="15.00 - 17.00">15.00 - 17.00</option>
+                                    </select>
+                                    <label for="floatingSelect">Works with selects</label>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-primary">Save Order</button>
+                        <button type="submit" class="btn btn-primary btn-sm">Save Order</button>
                     </div>
                 </form>
             </div>

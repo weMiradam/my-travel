@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Frontend;
 
 use App\Http\Controllers\Controller;
 use App\Models\Travel;
+use App\Models\TrTravelOrder;
 use Illuminate\Http\Request;
 
 class TravelController extends Controller
@@ -24,5 +25,19 @@ class TravelController extends Controller
             ->firstOrFail();
 
         return view('frontend.page.travel-detail',$data);
+    }
+    public function postOrder(Request $request) {
+        $new = new TrTravelOrder();
+        $new->code_transaction = "TRX-".time();
+        $new->travel_id = $request->get('travel_id');
+        $new->name = $request->get('name');
+        $new->no_phone = $request->get('no_phone');
+        $new->email = $request->get('email');
+        $new->ticket_qty = $request->get('ticket_qty');
+        $new->date_booking = $request->get('date_booking');
+        $new->session_time = $request->get('session');
+        $new->save();
+
+        return redirect()->back()->with(["msg"=>"Berhasil melakukan pembelian, silahkan tunggu hingga admin menghubungi anda.","msg_type"=>"success"]);
     }
 }

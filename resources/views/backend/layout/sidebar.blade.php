@@ -22,7 +22,7 @@
     <!-- Divider -->
     <hr class="sidebar-divider" style="padding-bottom: 0px !important;margin-bottom: 0px !important;">
     <li class="nav-item">
-        <a class="nav-link" href="{{route('adminTravel')}}">
+        <a class="nav-link" href="{{route('adminTransaction')}}">
             <i class="fas fa-fw fa-shopping-cart"></i>
             <span>Order Travel</span></a>
     </li>
