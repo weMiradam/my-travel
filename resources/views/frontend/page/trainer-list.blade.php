@@ -5,8 +5,8 @@
         <!-- ======= Breadcrumbs ======= -->
         <div class="breadcrumbs">
             <div class="container">
-                <h2>Trainers</h2>
-                <p>Est dolorum ut non facere possimus quibusdam eligendi voluptatem. Quia id aut similique quia voluptas sit quaerat debitis. Rerum omnis ipsam aperiam consequatur laboriosam nemo harum praesentium. </p>
+                <h2>Storyteller</h2>
+                <p>Story Teller Walking Tour Profesional hadir! Di sini, Anda akan dibawa dalam petualangan yang mengagumkan dengan cerita menarik dari para pemandu wisata berpengalaman kami. Dengan cerita-cerita ini, Anda akan dapat memahami lebih dalam tentang tempat-tempat wisata yang Anda kunjungi dan juga budaya serta sejarah di baliknya.</p>
             </div>
         </div><!-- End Breadcrumbs -->
 

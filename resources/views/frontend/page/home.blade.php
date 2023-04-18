@@ -18,9 +18,9 @@
 
                 <div class="row">
                     <div class="col-lg-12 content">
-                        <h3>LET'S PLAY EVERYDAY!</h3>
+                        <h3>LET'S WALK TOGETHER!</h3>
                         <p class="fst-italic">
-                            Alias setiap hari! Kamu bebas pilih mau jalan, sepedahan, atau mendaki. Kita main menelusuri seluk beluk Bandung, berinteraksi dengan orang lokal sekitar, yang tentunya menambah kesanmu tentang Bandung.
+                            Kamu bebas pilih mau jalan, sepedahan, atau mendaki. Kita main menelusuri seluk beluk Bandung, berinteraksi dengan orang lokal sekitar, yang tentunya menambah kesanmu tentang Bandung.
                         </p>
                     </div>
                 </div>
@@ -35,18 +35,18 @@
                 <div class="row counters">
 
                     <div class="col-lg-4 text-center">
-                        <span data-purecounter-start="0" data-purecounter-end="1232" data-purecounter-duration="1" class="purecounter"></span>
-                        <p>Travel Guide</p>
+                        <span data-purecounter-start="0" data-purecounter-end="23" data-purecounter-duration="1" class="purecounter"></span>
+                        <p>Route</p>
                     </div>
 
                     <div class="col-lg-4 text-center">
-                        <span data-purecounter-start="0" data-purecounter-end="42" data-purecounter-duration="1" class="purecounter"></span>
+                        <span data-purecounter-start="0" data-purecounter-end="147" data-purecounter-duration="1" class="purecounter"></span>
                         <p>Events</p>
                     </div>
 
                     <div class="col-lg-4 text-center">
                         <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
-                        <p>Trainers Guide</p>
+                        <p>Storyteller</p>
                     </div>
 
                 </div>
@@ -61,7 +61,7 @@
                 <div class="row">
                     <div class="col-lg-5 d-flex align-items-stretch">
                         <div class="content">
-                            <h3>Why Choose My Guide?</h3>
+                            <h3>Why Choose Storeies</h3> 
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
                                 Asperiores dolores sed et. Tenetur quia eos. Autem tempore quibusdam vel necessitatibus optio ad corporis.

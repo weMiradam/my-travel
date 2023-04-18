@@ -6,14 +6,14 @@
         <div class="breadcrumbs" data-aos="fade-in">
             <div class="container">
                 <h2>Contact Us</h2>
-                <p>Est dolorum ut non facere possimus quibusdam eligendi voluptatem. Quia id aut similique quia voluptas sit quaerat debitis. Rerum omnis ipsam aperiam consequatur laboriosam nemo harum praesentium. </p>
+                <p>Jangan ragu untuk menghubungi kami untuk informasi lebih lanjut tentang tur kami atau jika Anda memiliki pertanyaan tentang perjalanan Anda. Kami senang membantu dan siap memberikan saran dan rekomendasi untuk membuat perjalanan Anda semakin berkesan. Anda dapat menghubungi kami melalui formulir kontak atau melalui informasi kontak yang tersedia di halaman ini</p>
             </div>
         </div><!-- End Breadcrumbs -->
 
         <!-- ======= Contact Section ======= -->
         <section id="contact" class="contact">
             <div data-aos="fade-up">
-                <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe>
+                <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d4057556.881088757!2d106.67528926977874!3d-6.7138404268777006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d-6.9888227999999994!2d110.438137!4m5!1s0x2e68e653eb17e239%3A0xc6192a1f92aa9e41!2sunpad!3m2!1d-6.926132099999999!2d107.77468809999999!5e0!3m2!1sen!2sid!4v1681720485849!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
 
             <div class="container" data-aos="fade-up">
@@ -24,20 +24,20 @@
                         <div class="info">
                             <div class="address">
                                 <i class="bi bi-geo-alt"></i>
-                                <h4>Location:</h4>
-                                <p>A108 Adam Street, New York, NY 535022</p>
+                                <h4>Location :</h4>
+                                <p>Jatinangor, Indonesia</p>
                             </div>
 
                             <div class="email">
                                 <i class="bi bi-envelope"></i>
-                                <h4>Email:</h4>
-                                <p>info@example.com</p>
+                                <h4>Email :</h4>
+                                <p>storeies@bandung.com</p>
                             </div>
 
                             <div class="phone">
                                 <i class="bi bi-phone"></i>
-                                <h4>Call:</h4>
-                                <p>+1 5589 55488 55s</p>
+                                <h4>Phone :</h4>
+                                <p>0857 9986 8899</p>
                             </div>
 
                         </div>

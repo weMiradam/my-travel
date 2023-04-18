@@ -5,8 +5,8 @@
         <!-- ======= Breadcrumbs ======= -->
         <div class="breadcrumbs">
             <div class="container">
-                <h2>Courses</h2>
-                <p>Est dolorum ut non facere possimus quibusdam eligendi voluptatem. Quia id aut similique quia voluptas sit quaerat debitis. Rerum omnis ipsam aperiam consequatur laboriosam nemo harum praesentium. </p>
+                <h2>TOUR LIST</h2>
+                <p>Temukan petualangan yang sesuai denganmu! Pilih dari berbagai pilihan tema tur kami untuk menemukan pengalaman yang paling sesuai dengan minat dan keinginanmu. Dari tur sejarah hingga wisata kuliner, kami memiliki tur yang sesuai untuk semua orang. Cari tahu lebih lanjut tentang tema tur kami di bawah ini!</p>
             </div>
         </div><!-- End Breadcrumbs -->
 
