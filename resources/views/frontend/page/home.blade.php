@@ -76,22 +76,22 @@
                                 <div class="col-xl-4 d-flex align-items-stretch">
                                     <div class="icon-box mt-4 mt-xl-0">
                                         <i class="bx bx-receipt"></i>
-                                        <h4>Corporis voluptates sit</h4>
-                                        <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                                        <h4>Menemui Kultur Tersembunyi </h4>
+                                        <p>Tiap kota memiliki banyak campuran budaya yang tidak akan bisa kita lihat hanya dengan duduk diam di rumah saja</p>
                                     </div>
                                 </div>
                                 <div class="col-xl-4 d-flex align-items-stretch">
                                     <div class="icon-box mt-4 mt-xl-0">
                                         <i class="bx bx-cube-alt"></i>
-                                        <h4>Ullamco laboris ladore pan</h4>
-                                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+                                        <h4>Menyajikan Sejarah yang Kaya</h4>
+                                        <p>Walking tour tak hanya merupakan cara terbaik untuk membenamkan diri dalam suasana kota. Namun juga tiap history nya</p>
                                     </div>
                                 </div>
                                 <div class="col-xl-4 d-flex align-items-stretch">
                                     <div class="icon-box mt-4 mt-xl-0">
                                         <i class="bx bx-images"></i>
-                                        <h4>Menyajikan Sejarah yang Kaya</h4>
-                                        <p>Walking tour tak hanya merupakan cara terbaik untuk membenamkan diri dalam suasana kota.</p>
+                                        <h4>Waktu tepat mengabadikan foto</h4>
+                                        <p>Dengan background foto Instagrammable, pasti mengundang banyak sanjungan teman-teman online</p>
                                     </div>
                                 </div>
                             </div>
